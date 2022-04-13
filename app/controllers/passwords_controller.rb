@@ -1,7 +1,6 @@
 class PasswordsController < ApplicationController
-    def index
-        pass =  Password.all
-
-        render json: pass
-    end
+  def index
+    password =  Password.all
+    render json: password, status: 200
+  end
 end
