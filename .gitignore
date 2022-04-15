@@ -6,6 +6,9 @@
 
 # Ignore bundler config.
 /.bundle
+.tool-versions
+.ruby-version
+
 
 # Ignore all logfiles and tempfiles.
 /log/*
