@@ -8,7 +8,7 @@ class CategoryController < ApplicationController
 
     def update
         category = Category.find(params[:id])
-        category = Category.create!(category_params) 
+        category = Category.update!(category_params) 
     end
 
     private 
