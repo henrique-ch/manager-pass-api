@@ -34,9 +34,10 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
-  gem 'rubocop', '>=1.27.0'
-  gem 'rubocop-performance'
+  gem 'rubocop'
+  gem 'rubocop-performance', '~> 1.13', '>= 1.13.3'
   gem 'rubocop-rails'
+  gem 'code-scanning-rubocop', '~> 0.3.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
